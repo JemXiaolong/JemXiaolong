@@ -1,7 +1,5 @@
 <div align="center">
 
-<img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8b/87/0d/8b870d50-b975-8faf-dc24-19b28fc237e7/AppIcon-0-0-1x_U007epad-0-1-85-220.png/128x128bb.jpg" width="88" style="border-radius:20px" />
-
 # Hey there! I'm Jem 👋
 
 **Full Stack Developer** — I ship mobile apps to the App Store and work inside a fork of the **Odoo 19** framework.
