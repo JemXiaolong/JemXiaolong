@@ -2,88 +2,129 @@
 
 # Hey there! I'm Jem 👋
 
-**Full Stack Developer** — I ship mobile apps to the App Store and work inside a fork of the **Odoo 19** framework.
+**Full Stack Developer** — I build inside a fork of the **Odoo 19** framework, run the **AWS**
+infrastructure and **IoT** fleet feeding it, and ship **React Native** apps to real users.
 
 [![App Store](https://img.shields.io/badge/App_Store-published-0D96F6?style=flat-square&logo=appstore&logoColor=white)](https://apps.apple.com/mx/app/app-grupo-educativo-hidalgo/id6770196534)
 [![Merged PRs](https://img.shields.io/badge/dynamic/json?style=flat-square&color=8957e5&label=merged%20PRs%20in%20Odoo%20fork&query=%24.total_count&url=https%3A%2F%2Fapi.github.com%2Fsearch%2Fissues%3Fq%3Dauthor%3AJemXiaolong%2Bis%3Apr%2Bis%3Amerged%2Brepo%3AAgro-Marin%2Fodoo)](https://github.com/Agro-Marin/odoo/pulls?q=is%3Apr+author%3AJemXiaolong+is%3Amerged)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jemxiaolong/)
 [![Email](https://img.shields.io/badge/-Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:escuderojem@outlook.com)
 
 </div>
 
 ---
 
-## 📱 Shipped: App Grupo Educativo Hidalgo
-
-**Live on the App Store**, published under my own developer account — designed, built and released end to end.
-
-<div align="center">
-
-<img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1e/92/74/1e9274e1-52ed-4b40-ea59-e41eec66e40d/inicio1.png/320x480bb.jpg" width="170" />
-<img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c1/0e/de/c10ede54-beb2-337c-c97f-2d7382440c8a/5.png/320x480bb.jpg" width="170" />
-<img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/06/19/cd/0619cdb2-9eb3-3926-76c4-5a4860ccead8/4.png/320x480bb.jpg" width="170" />
-<img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/96/45/e5/9645e580-9eeb-3245-2d36-26d921b47f36/7.png/320x480bb.jpg" width="170" />
-
-[**⬇️ Download on the App Store**](https://apps.apple.com/mx/app/app-grupo-educativo-hidalgo/id6770196534)
-
-</div>
-
-The official app for parents and guardians of Grupo Educativo Hidalgo — school life from your phone:
-
-- **Multi-child dashboard** — every registered child in one place, with overall average and active reports at a glance
-- **Grades by subject and term**, with colour-coded indicators that surface weak spots immediately
-- **Official announcements** targeted per grade and group — schedule changes, events, meetings
-- **Dark mode**, a redesigned bottom navigation and chart-based dashboards (shipped in v1.1.0)
-
-`React Native` · `Expo` · `TypeScript` · authentication · push notifications · REST API
-
-<sub>v1.1.0 · Education · free · iOS 15.1+ · 127 supported devices · first released May 2026</sub>
-
----
-
 ## 🧑‍💻 About Me
 
-I move between two worlds: **product-facing mobile apps** and **enterprise back ends**. Day to day
-I work inside a fork of the Odoo framework itself — ORM internals, the OWL web client, and the CI
-that keeps it honest — and I ship React Native apps to real users on the side.
+I move between three worlds: **enterprise back ends**, the **infrastructure and devices**
+underneath them, and **product-facing mobile apps**. Day to day I work inside a fork of the Odoo
+framework itself — ORM internals, the OWL web client, and the CI that keeps it honest — I run the
+AWS deployment it lives on, and I integrate the hardware that feeds it data. Ten years in, across
+education platforms, agro-industrial ERP and a stint in game art.
 
-- 📱 Published an iOS app end to end: design → build → App Store review → releases
-- 🔭 Maintaining an **Odoo 19 ERP fork** running in production
-- 🧠 **Python 3.14**, **PostgreSQL 18**, **Odoo ORM & OWL**, **React Native/Expo**, **TypeScript**
-- 🛠️ Big on code quality: linting, pre-commit tooling, coding guidelines, CI gates
-- 🌎 Based in México
+- 🔭 Maintaining an **Odoo 19 ERP fork** in production — framework level *and* app level
+- 🧱 **22 modules written from scratch**, ~**850 commits** and ~**137k lines** across core, enterprise and our addons
+- 📡 Built the **IoT ingest path**: PLC telemetry over **AWS IoT Core (MQTT)**, GPS fleet tracking and Raspberry Pi weighing stations
+- ☁️ Own the **AWS side**: EC2, S3, nginx, systemd, backups, worker sizing, PostgreSQL tuning
+- 🤖 Turned **Telegram into an ops surface**: approvals, attendance and AI assistants over webhooks
+- 📱 Shipped a school-community app to **iOS and Android**, end to end, under my own developer account
+- 🧠 **Python 3.14**, **PostgreSQL 18 + PostGIS**, **Odoo ORM & OWL**, **React Native/Expo**, **TypeScript**, some **Rust**
+- 🛠️ Big on code quality: linting at repo scale, pre-commit tooling, coding guidelines, CI gates
+- 🌎 Based in Metepec, Estado de México
 
 ---
 
-## ⚡ Tech Stack
+## 🏗️ Platform work on the Odoo 19 fork
 
 <div align="center">
 
-**Mobile & Frontend**
-
-![React Native](https://img.shields.io/badge/React_Native-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Expo](https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![OWL](https://img.shields.io/badge/OWL-714B67?style=for-the-badge&logo=odoo&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-
-**Backend & Data**
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Odoo](https://img.shields.io/badge/Odoo-714B67?style=for-the-badge&logo=odoo&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-
-**Infra & Tooling**
-
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
-![nginx](https://img.shields.io/badge/nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+| Framework | Modules authored | Commits | Lines |
+|:---------:|:----------------:|:-------:|:-----:|
+| core · enterprise · addons | **22** from scratch | **~850** | **~137k** |
 
 </div>
+
+**Framework level** — ORM, the view engine, OWL web client, messaging, the HTML editor and
+accounting: bug fixes and refactors that land upstream in our fork, not in a downstream module.
+
+**Application level** — sales, purchasing, inventory, geospatial and integrations for
+agro-industrial operations, including:
+
+- **Cloud storage** — attachments moved to Amazon S3 with a hybrid local/remote mode
+- **File manager** — a drive-style document surface with per-user permissions
+- **Industrial telemetry** — PLC data ingested through AWS IoT Core over MQTT
+- **Vehicle catalog** — a public web catalog with WhatsApp-driven quoting
+- **Geospatial** — PostGIS-backed modules (geoengine) and multi-company master-data fixes
+- **Remote devices** — `remote_gps` and `remote_access_device` for field hardware
+
+**High-volume data** — continuous ingest of fleet telemetry and industrial sensors with
+asynchronous job processing, plus diagnosis and resolution of **PostgreSQL write contention**
+under replay bursts.
+
+**Performance in production** — slow-query profiling, execution-plan analysis, PostgreSQL
+configuration tuning and worker sizing on EC2.
+
+**CI/CD** — hardened the Docker pipeline (build context, system dependencies, the **Rust**
+extension `odoo_rust`, the PostgreSQL 18 upgrade) and automated linting at repository scale
+(`ruff`, `pylint`, `pre-commit`).
+
+---
+
+## 🤖 Telegram as an operations surface
+
+A family of modules that turns Telegram into a real front end for people who never open the ERP —
+built on webhooks, encrypted credential storage and per-bot configuration, so one codebase serves
+several bots with different audiences.
+
+- **Approval flows** — purchase and payment requests approved from a chat, with a mini-app for the
+  richer cases and full traceability back into the ERP
+- **Accounting automation** — approvals that post their own downstream accounting entries
+- **Attendance** — check in and out from the phone, straight into the HR records
+- **Daily digest** — a scheduled operational summary pushed to the people who need it
+- **Financial queries** — permission-aware, read-only answers about balances and documents
+- **AI assistant** — natural-language Q&A with an LLM behind it, toggleable per bot, including
+  voice-note transcription
+- **Ops behind it** — webhook registration, tunnelled webhooks for local development, encrypted
+  bot tokens, and rate-limit hardening found the hard way under real load
+
+`Python` `Odoo ORM` `Telegram Bot API` `webhooks` `LLM APIs` `HMAC` `cryptography`
+
+---
+
+## 📡 IoT, telemetry & devices
+
+Where the physical world meets the ERP. All of it in production, feeding records people make
+decisions on.
+
+| System | What I built |
+|--------|--------------|
+| **PLC telemetry** | Industrial controller data ingested through **AWS IoT Core** over MQTT, landing in ERP records |
+| **GPS fleet tracking** | Ingest for Teltonika trackers over cellular: high-volume inbound writes, buffer-replay bursts after connectivity gaps, per-device concurrency handling, and health monitoring that answers "which units stopped reporting, and since when" |
+| **Weighing stations** | HTTP/REST bridge between a fleet of **Raspberry Pi** scale stations and inventory: HMAC-SHA256 signed webhook ingest, replay and rate-limit protection, per-station config and catalog snapshots with ETag caching — a migration off the legacy MQTT bridge |
+| **Biometric access control** | Fingerprint intercom integration with an audit trail for enrolment and removals |
+| **Device provisioning** | Making vendor Windows-only configurators work from Linux via a KVM virtual machine with Bluetooth USB passthrough, plus firmware/tooling version matching |
+
+`Python` `AWS IoT Core` `MQTT` `REST` `HMAC` `Raspberry Pi` `cellular IoT` `KVM/QEMU`
+
+---
+
+## ☁️ Cloud & infrastructure (AWS)
+
+I run the production deployment, not just the code that ships to it.
+
+- **EC2 + nginx + systemd** — multi-instance Odoo deployment (web and telemetry workloads split),
+  reverse-proxy tuning, request-buffering and timeout issues diagnosed under real traffic, and a
+  maintenance page served automatically when the app is down
+- **S3 object storage** — attachments off local disk with a hybrid mirror strategy and
+  content-addressed digests
+- **Backups** — automated database and filestore backups shipped to S3 on a schedule, with
+  restore-tested manifests
+- **Capacity & performance** — memory over-commit and disk-layout incidents diagnosed and fixed;
+  slow-request profiling down to registry reloads and N+1 query patterns
+- **Service automation** — a Playwright-driven service that automates a tax-authority portal, and
+  a **FastAPI** ops dashboard for live logs and worker health
+
+`AWS EC2` `S3` `IoT Core` `nginx` `systemd` `Docker` `PostgreSQL 18` `FastAPI` `Playwright` `bash`
 
 ---
 
@@ -106,13 +147,131 @@ A few PRs that show the kind of thing I work on:
 
 ---
 
+## 📱 Shipped: Portal Escolar GEH
+
+**Live on the App Store** and distributed on Android — designed, built and released end to end
+under my own developer account.
+
+<div align="center">
+
+<img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1e/92/74/1e9274e1-52ed-4b40-ea59-e41eec66e40d/inicio1.png/320x480bb.jpg" width="170" />
+<img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c1/0e/de/c10ede54-beb2-337c-c97f-2d7382440c8a/5.png/320x480bb.jpg" width="170" />
+<img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/06/19/cd/0619cdb2-9eb3-3926-76c4-5a4860ccead8/4.png/320x480bb.jpg" width="170" />
+<img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/96/45/e5/9645e580-9eeb-3245-2d36-26d921b47f36/7.png/320x480bb.jpg" width="170" />
+
+[**⬇️ Download on the App Store**](https://apps.apple.com/mx/app/app-grupo-educativo-hidalgo/id6770196534)
+
+</div>
+
+The official app for parents and guardians of Grupo Educativo Hidalgo — school life from the phone,
+across **six functional modules**:
+
+- **Grades** by subject and term with averages, colour-coded so weak spots surface immediately
+- **Attendance history** — present / absent / late / excused
+- **Announcements** targeted per grade and group, with read receipts
+- **Payment status** — pending / paid / overdue
+- **QR exit authorisations** — time-expiring codes (15 minutes) built for in-person validation at
+  the school gate
+- **Multi-child support** — one guardian account managing every registered child
+
+Also mine: architecture and navigation, persistent-session auth with global state
+(`Zustand` + `AsyncStorage`), splash screen and onboarding tutorial, Android APK builds via
+**EAS Build**, and the release cycle on the App Store — build signing, store listing and update
+rollout. Version **1.1.0** shipped a redesigned interface, a new bottom navigation and
+chart-based dashboards.
+
+`React Native` · `Expo` · `TypeScript` · `Zustand` · `AsyncStorage` · `React Native SVG` · `EAS Build`
+
+<sub>v1.1.0 · Education · free · iOS 15.1+ · 127 supported devices · first released May 2026</sub>
+
+---
+
+## 🧰 Automation & developer tooling
+
+I would rather build the tool than do the task twice.
+
+- **Automated PR review** — a self-hosted pipeline that reacts to GitHub webhooks and checks every
+  incoming PR against our written coding guidelines, then labels and comments with its verdict.
+  Complements CI instead of duplicating it
+- **Repo-wide audit sweeps** — resumable, ledger-driven campaigns that walk a repository module by
+  module (lint debt, comment hygiene, framework renames, test coverage) and open one reviewable PR
+  per batch, so a 700-module fork can actually be cleaned up
+- **MCP server for the ERP** — exposes ERP models to AI agents over the Model Context Protocol
+- **Potato Debug** — browser extension for Odoo 19: toggle debug mode and assets, plus a record
+  inspection panel
+- **More browser & desktop tooling** — Chrome MV3 extensions for a faster ERP workspace (a dock, a
+  control-center overlay, a live worker/log monitor widget), a `.deb`-packaged read-only **ERD
+  viewer** that draws the schema straight from PostgreSQL, and a GNOME top-bar indicator
+- **3D product visualisation** — glTF model viewer integration in the web client, including
+  runtime texture transforms for product mockups
+
+`Python` `TypeScript` `JavaScript` `Chrome Extensions (MV3)` `WebSocket` `MCP` `glTF/Three.js` `GitHub Actions`
+
+---
+
+## ⚡ Tech Stack
+
+<div align="center">
+
+**Mobile & Frontend**
+
+![React Native](https://img.shields.io/badge/React_Native-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Expo](https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![OWL](https://img.shields.io/badge/OWL-714B67?style=for-the-badge&logo=odoo&logoColor=white)
+![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=threedotjs&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
+**Backend & Data**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Odoo](https://img.shields.io/badge/Odoo-714B67?style=for-the-badge&logo=odoo&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![PostGIS](https://img.shields.io/badge/PostGIS-008BB9?style=for-the-badge&logo=postgresql&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+
+**Infra, IoT & Tooling**
+
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
+![nginx](https://img.shields.io/badge/nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![MQTT](https://img.shields.io/badge/MQTT-660066?style=for-the-badge&logo=mqtt&logoColor=white)
+![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-A22846?style=for-the-badge&logo=raspberrypi&logoColor=white)
+![Telegram](https://img.shields.io/badge/Telegram_Bot_API-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+
+</div>
+
+---
+
+## 🗺️ Career so far
+
+| When | Where | What |
+|------|-------|------|
+| **2025 → now** | **AgroMarin** · Full Stack Developer | Odoo 19 fork for agro-industrial operations: framework contributions, 22 new modules, AWS infrastructure, IoT ingest, CI/CD |
+| **2026** | **Grupo Educativo Hidalgo** · React Native Developer | *Portal Escolar GEH* for iOS and Android, designed and shipped end to end |
+| **2018 → 2025** | **CECYTEM** · Senior Full Stack Developer | Led institutional software for one of the largest technical-education systems in Estado de México: an enrolment system streamlining **2,000+** students per cycle, Google Apps Script automations across Classroom/Drive/Docs, Odoo Enterprise modules and core bug fixes, the institutional website and an internal academic-management platform. Innovation projects: a **sign-language interpreter** with Python/AI, smart attendance, an institutional bot, and educational robotics with Arduino (mini-sumo) |
+| **2016 → 2018** | **Freelance** · Developer & Designer | Custom web applications (Python, Java, MySQL), institutional and commercial sites (PHP, JavaScript), plus graphic design and branding |
+| **2014 → 2016** | **Ge Games** · 3D Artist & Gameplay Programmer | 3D character design and post-production in Blender, gameplay programming in C# on Unity, and music/video production for games released on iOS and Android |
+
+---
+
 ## 🚀 Other Projects
 
 | Project | Description | Tech |
 |---------|-------------|------|
 | [**Manual OWL**](https://github.com/JemXiaolong/Manual_OWL) | Practical guide to the Odoo Web Library — fundamentals, examples and best practices | `OWL` `Odoo` `CSS` |
 | [**pre-commit-agromarin**](https://github.com/JemXiaolong/pre-commit-agromarin) | Pre-commit hooks for Odoo development workflows | `Python` |
-| **ERP integrations** *(private)* | REST/webhook gateways, OCR intake, Telegram bots and GPS telemetry on top of Odoo | `Python` `PostgreSQL` `AWS` |
+| [**Potato**](https://github.com/JemXiaolong/Potato) | Markdown note synchronisation across machines | `Python` |
+| [**Potato-Code**](https://github.com/JemXiaolong/Potato-Code) | Interface layer for a coding workflow | `TypeScript` |
+| **Potato Debug** | Browser extension for Odoo 19: debug/assets toggle and a record inspection panel | `JavaScript` `MV3` |
+| **Dev tooling** *(private)* | Chrome MV3 workspace extensions, a `.deb` ERD viewer, and an automated PR-review pipeline | `TypeScript` `Python` `bash` |
 
 ---
 
