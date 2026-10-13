@@ -296,6 +296,8 @@ documentos** y muestra a dónde fueron a dar en Odoo.
 
 `Kotlin` `Android` `Room` `WorkManager` `SIP` `Odoo REST`
 
+**Código → [Agro-Marin/odoo-companion](https://github.com/Agro-Marin/odoo-companion)**
+
 ---
 
 ## 📱 Publicado: Portal Escolar GEH
@@ -380,7 +382,7 @@ Prefiero construir la herramienta que hacer la tarea dos veces.
 | Proyecto | Descripción | Tecnología |
 |----------|-------------|------------|
 | **Enjambre de agentes de IA** *(privado)* | Agentes de varias familias de modelos que migran la lógica de Odoo a Rust y Go, con compuertas que corre código | `Python` `Rust` `Go` |
-| **Odoo Companion** *(privado)* | App Android que manda ubicación, llamadas, grabaciones y documentos a Odoo, con softphone SIP | `Kotlin` `Android` |
+| [**Odoo Companion**](https://github.com/Agro-Marin/odoo-companion) | App Android que manda ubicación, llamadas, grabaciones y documentos a Odoo, con softphone SIP | `Kotlin` `Android` |
 | [**odoo-rust-orm**](https://github.com/JemXiaolong/odoo-rust-orm) | Reimplementación en Rust de la ruta de lectura del ORM de Odoo 19, comparada en sombra contra el ORM de Python | `Rust` `Python` `PostgreSQL` |
 | **Historial Clínico** *(privado)* | Expediente clínico electrónico para consultorios, con instalador de Windows que se actualiza solo | `Next.js` `Prisma` `Electron` |
 | [**Manual OWL**](https://github.com/JemXiaolong/Manual_OWL) | Guía práctica de Odoo Web Library: fundamentos, ejemplos y buenas prácticas | `OWL` `Odoo` `CSS` |
