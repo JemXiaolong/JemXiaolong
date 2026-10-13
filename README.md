@@ -1,59 +1,65 @@
 <div align="center">
 
-# Hey there! I'm Jem 👋
+# ¡Hola! Soy Jem 👋
 
-**Full Stack Developer** — I build inside a fork of the **Odoo 19** framework, run the production
-infrastructure (**OVH**, previously **AWS**) and the **IoT** fleet feeding it, and ship complete products:
-a **React Native** app on the App Store and a self-updating **electronic medical record**.
+**Desarrollador Full Stack** — construyo dentro de un fork del framework **Odoo 19**, opero la
+infraestructura de producción (**OVH**, antes **AWS**) y la flotilla **IoT** que la alimenta, y saco
+productos completos: una app **React Native** en la App Store y un **expediente clínico electrónico**
+que se actualiza solo.
 
-**Portfolio → [jemxiaolong.github.io](https://jemxiaolong.github.io)** · **CV → [jemxiaolong.github.io/cv](https://jemxiaolong.github.io/cv/)** ([PDF](https://jemxiaolong.github.io/cv/CV-Eli-Jeziel-Escudero-Maldonado.pdf))
+**Portafolio → [jemxiaolong.github.io](https://jemxiaolong.github.io)** · **CV → [jemxiaolong.github.io/cv](https://jemxiaolong.github.io/cv/)** ([PDF](https://jemxiaolong.github.io/cv/CV-Eli-Jeziel-Escudero-Maldonado.pdf))
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-jemxiaolong.github.io-b8410e?style=flat-square&logo=safari&logoColor=white)](https://jemxiaolong.github.io)
-[![CV](https://img.shields.io/badge/CV-online_%2B_PDF-0a7d55?style=flat-square&logo=readthedocs&logoColor=white)](https://jemxiaolong.github.io/cv/)
-[![App Store](https://img.shields.io/badge/App_Store-published-0D96F6?style=flat-square&logo=appstore&logoColor=white)](https://apps.apple.com/mx/app/app-grupo-educativo-hidalgo/id6770196534)
-[![Merged PRs](https://img.shields.io/badge/dynamic/json?style=flat-square&color=8957e5&label=merged%20PRs%20in%20Odoo%20fork&query=%24.total_count&url=https%3A%2F%2Fapi.github.com%2Fsearch%2Fissues%3Fq%3Dauthor%3AJemXiaolong%2Bis%3Apr%2Bis%3Amerged%2Brepo%3AAgro-Marin%2Fodoo)](https://github.com/Agro-Marin/odoo/pulls?q=is%3Apr+author%3AJemXiaolong+is%3Amerged)
+[![Portafolio](https://img.shields.io/badge/Portafolio-jemxiaolong.github.io-b8410e?style=flat-square&logo=safari&logoColor=white)](https://jemxiaolong.github.io)
+[![CV](https://img.shields.io/badge/CV-en_línea_%2B_PDF-0a7d55?style=flat-square&logo=readthedocs&logoColor=white)](https://jemxiaolong.github.io/cv/)
+[![App Store](https://img.shields.io/badge/App_Store-publicada-0D96F6?style=flat-square&logo=appstore&logoColor=white)](https://apps.apple.com/mx/app/app-grupo-educativo-hidalgo/id6770196534)
+[![PRs mergeados](https://img.shields.io/badge/dynamic/json?style=flat-square&color=8957e5&label=PRs%20mergeados%20en%20el%20fork%20de%20Odoo&query=%24.total_count&url=https%3A%2F%2Fapi.github.com%2Fsearch%2Fissues%3Fq%3Dauthor%3AJemXiaolong%2Bis%3Apr%2Bis%3Amerged%2Brepo%3AAgro-Marin%2Fodoo)](https://github.com/Agro-Marin/odoo/pulls?q=is%3Apr+author%3AJemXiaolong+is%3Amerged)
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jemxiaolong/)
-[![Email](https://img.shields.io/badge/-Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:escuderojem@outlook.com)
+[![Correo](https://img.shields.io/badge/-Correo-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:escuderojem@outlook.com)
 
 </div>
 
 ---
 
-## ⚡ Tech Stack
+## ⚡ Stack técnico
 
 <div align="center">
 
-**Mobile & Frontend**
+**Móvil y frontend**
 
 ![React Native](https://img.shields.io/badge/React_Native-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![Expo](https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![OWL](https://img.shields.io/badge/OWL-714B67?style=for-the-badge&logo=odoo&logoColor=white)
 ![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=threedotjs&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-**Backend & Data**
+**Backend y datos**
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Odoo](https://img.shields.io/badge/Odoo-714B67?style=for-the-badge&logo=odoo&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![PostGIS](https://img.shields.io/badge/PostGIS-008BB9?style=for-the-badge&logo=postgresql&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-E38C00?style=for-the-badge&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
 ![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 
-**Infra, IoT & Tooling**
+**Infraestructura, IoT y herramientas**
 
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![OVH](https://img.shields.io/badge/OVHcloud-123F6D?style=for-the-badge&logo=ovh&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
+![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=for-the-badge&logo=ansible&logoColor=white)
 ![nginx](https://img.shields.io/badge/nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![MQTT](https://img.shields.io/badge/MQTT-660066?style=for-the-badge&logo=mqtt&logoColor=white)
 ![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-A22846?style=for-the-badge&logo=raspberrypi&logoColor=white)
 ![Telegram](https://img.shields.io/badge/Telegram_Bot_API-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)
 ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)
+![Electron](https://img.shields.io/badge/Electron-47848F?style=for-the-badge&logo=electron&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 
@@ -61,151 +67,178 @@ a **React Native** app on the App Store and a self-updating **electronic medical
 
 ---
 
-## 🧑‍💻 About Me
+## 🧑‍💻 Sobre mí
 
-I move between three worlds: **enterprise back ends**, the **infrastructure and devices**
-underneath them, and **product-facing mobile apps**. Day to day I work inside a fork of the Odoo
-framework itself — ORM internals, the OWL web client, and the CI that keeps it honest — I run the
-AWS deployment it lives on, and I integrate the hardware that feeds it data. Ten years in, across
-education platforms, agro-industrial ERP and a stint in game art.
+Me muevo entre tres mundos: los **backends empresariales**, la **infraestructura y los dispositivos**
+que los sostienen, y los **productos** que usa la gente. En el día a día trabajo dentro del propio
+framework de Odoo —internals del ORM, el cliente web OWL y el CI que lo mantiene honesto—, opero el
+servidor de producción donde corre e integro el hardware que le manda datos. Llevo diez años en esto:
+plataformas educativas, ERP agroindustrial, salud y una etapa en arte para videojuegos.
 
-- 🔭 Maintaining an **Odoo 19 ERP fork** in production — framework level *and* app level
-- 🧱 **22 modules written from scratch** and **5,000+ commits** across the framework and our addons — many landed through AI-agent audit loops I designed, one reviewable PR per batch
-- 🦀 **odoo-rust-orm** — a Rust reimplementation of the ORM read path, shadow-diffed against the Python ORM on a real database
-- 🩺 **Historial Clínico** — an electronic medical record for private practices: Next.js + Prisma, Windows installer, self-updating releases
-- 📡 Built the **IoT ingest path**: PLC telemetry over **AWS IoT Core (MQTT)**, GPS fleet tracking and Raspberry Pi weighing stations
-- ☁️ Own production: moved it **from AWS to OVH** (A/B deploys, pgBackRest in two regions, restic, CrowdSec, Ansible), plus nginx, systemd, worker sizing and PostgreSQL tuning
-- 🤖 Turned **Telegram into an ops surface**: approvals, attendance and AI assistants over webhooks
-- 📱 Shipped a school-community app to **iOS and Android**, end to end, under my own developer account
-- 🧠 **Python 3.14**, **PostgreSQL 18 + PostGIS**, **Odoo ORM & OWL**, **React Native/Expo**, **TypeScript**, some **Rust**
-- 🛠️ Big on code quality: linting at repo scale, pre-commit tooling, coding guidelines, CI gates
-- 🌎 Based in Metepec, Estado de México
+- 🔭 Mantengo un **fork de Odoo 19** en producción, a nivel framework *y* a nivel aplicación
+- 🧱 **22 módulos escritos desde cero** y **más de 5,000 commits** entre el framework y nuestros addons; buena parte llegaron por loops de auditoría con agentes de IA que diseñé, con un PR revisable por lote
+- 🦀 **odoo-rust-orm**: reimplementación en Rust de la ruta de lectura del ORM, comparada en sombra contra el ORM de Python sobre una base real
+- 🩺 **Historial Clínico**: expediente clínico electrónico para consultorios, con Next.js + Prisma, instalador de Windows y actualizaciones automáticas
+- 📡 Construí la **ruta de ingesta IoT**: telemetría de PLCs por **AWS IoT Core (MQTT)**, rastreo GPS de la flotilla y básculas con Raspberry Pi
+- ☁️ Opero producción: la **migré de AWS a OVH** (despliegues A/B, pgBackRest en dos regiones, restic, CrowdSec, Ansible), además de nginx, systemd, dimensionamiento de workers y tuning de PostgreSQL
+- 🤖 Convertí **Telegram en una superficie de operación**: aprobaciones, asistencias y asistentes de IA por webhooks
+- 📱 Publiqué una app escolar en **iOS y Android** de punta a punta, con mi propia cuenta de desarrollador
+- 🧠 **Python 3.14**, **PostgreSQL 18 + PostGIS**, **ORM y OWL de Odoo**, **React Native/Expo**, **Next.js**, **TypeScript** y algo de **Rust**
+- 🛠️ Me importa la calidad del código: linting a escala de repositorio, hooks de pre-commit, guías de estilo y compuertas de CI
+- 🌎 Vivo en Metepec, Estado de México
 
 ---
 
-## 🏗️ Platform work on the Odoo 19 fork
+## 🏗️ Trabajo de plataforma en el fork de Odoo 19
 
 <div align="center">
 
-| Framework | Modules authored | Commits |
-|:---------:|:----------------:|:-------:|
-| core · addons · l10n | **22** from scratch | **5,000+** (incl. automated audit loops) |
+| Framework | Módulos de mi autoría | Commits |
+|:---------:|:---------------------:|:-------:|
+| core · addons · l10n | **22** desde cero | **5,000+** (incluye loops de auditoría automatizados) |
 
 </div>
 
-**Framework level** — ORM, the view engine, OWL web client, messaging, the HTML editor and
-accounting: bug fixes and refactors that land upstream in our fork, not in a downstream module.
+**Nivel framework**: ORM, motor de vistas, cliente web OWL, mensajería, editor HTML y contabilidad.
+Correcciones y refactors que aterrizan en el fork mismo, no en un módulo aguas abajo.
 
-**Application level** — sales, purchasing, inventory, geospatial and integrations for
-agro-industrial operations, including:
+**Nivel aplicación**: ventas, compras, inventario, geoespacial e integraciones para operaciones
+agroindustriales, entre ellas:
 
-- **Cloud storage** — attachments moved to Amazon S3 with a hybrid local/remote mode
-- **File manager** — a drive-style document surface with per-user permissions
-- **Industrial telemetry** — PLC data ingested through AWS IoT Core over MQTT
-- **Vehicle catalog** — a public web catalog with WhatsApp-driven quoting
-- **Geospatial** — PostGIS-backed modules (geoengine) and multi-company master-data fixes
-- **Remote devices** — `remote_gps` and `remote_access_device` for field hardware
+- **Almacenamiento en la nube**: archivos adjuntos en Amazon S3 / object storage con modo híbrido local/remoto
+- **Gestor de archivos**: una superficie tipo drive con permisos por usuario
+- **Telemetría industrial**: datos de PLCs que entran por AWS IoT Core vía MQTT
+- **Catálogo de vehículos**: catálogo web público con cotización por WhatsApp
+- **Geoespacial**: módulos sobre PostGIS (geoengine) y correcciones de datos maestros multi-compañía
+- **Dispositivos remotos**: `remote_gps` y `remote_access_device` para hardware en campo
 
-**High-volume data** — continuous ingest of fleet telemetry and industrial sensors with
-asynchronous job processing, plus diagnosis and resolution of **PostgreSQL write contention**
-under replay bursts.
+**Datos de alto volumen**: ingesta continua de telemetría de flotilla y sensores industriales con
+procesamiento asíncrono, más el diagnóstico y la solución de **contención de escritura en PostgreSQL**
+durante ráfagas de reenvío.
 
-**Performance in production** — slow-query profiling, execution-plan analysis, PostgreSQL
-configuration tuning and worker sizing on EC2.
+**Rendimiento en producción**: perfilado de consultas lentas, análisis de planes de ejecución,
+tuning de la configuración de PostgreSQL y dimensionamiento de workers.
 
-**CI/CD** — hardened the Docker pipeline (build context, system dependencies, the **Rust**
-extension `odoo_rust`, the PostgreSQL 18 upgrade) and automated linting at repository scale
+**CI/CD**: endurecí el pipeline en Docker (contexto de build, dependencias del sistema, la extensión
+en **Rust** `odoo_rust`, el upgrade a PostgreSQL 18) y automaticé el linting a escala de repositorio
 (`ruff`, `pylint`, `pre-commit`).
 
 ---
 
-## 🤖 Telegram as an operations surface
+## 🤖 Telegram como superficie de operación
 
-A family of modules that turns Telegram into a real front end for people who never open the ERP —
-built on webhooks, encrypted credential storage and per-bot configuration, so one codebase serves
-several bots with different audiences.
+Una familia de módulos que convierte a Telegram en un frontend real para quienes nunca abren el ERP.
+Están construidos sobre webhooks, almacenamiento cifrado de credenciales y configuración por bot, así
+que un mismo código atiende a varios bots con públicos distintos.
 
-- **Approval flows** — purchase and payment requests approved from a chat, with a mini-app for the
-  richer cases and full traceability back into the ERP
-- **Accounting automation** — approvals that post their own downstream accounting entries
-- **Attendance** — check in and out from the phone, straight into the HR records
-- **Daily digest** — a scheduled operational summary pushed to the people who need it
-- **Financial queries** — permission-aware, read-only answers about balances and documents
-- **AI assistant** — natural-language Q&A with an LLM behind it, toggleable per bot, including
-  voice-note transcription
-- **Ops behind it** — webhook registration, tunnelled webhooks for local development, encrypted
-  bot tokens, and rate-limit hardening found the hard way under real load
+- **Flujos de aprobación**: solicitudes de compra y de pago aprobadas desde un chat, con una mini-app
+  para los casos más complejos y trazabilidad completa en el ERP
+- **Automatización contable**: aprobaciones que generan sus propios asientos contables
+- **Asistencias**: entrada y salida desde el teléfono, directo a los registros de RR. HH.
+- **Resumen diario**: un resumen operativo programado que llega a quien lo necesita
+- **Consultas financieras**: respuestas de solo lectura sobre saldos y documentos, respetando permisos
+- **Consultas sobre el ERP**: preguntas en lenguaje natural sobre los datos, incluida la ubicación GPS
+  de una persona o un vehículo
+- **Asistente de IA**: preguntas y respuestas con un LLM detrás, activable por bot, con
+  transcripción de notas de voz
+- **La operación detrás**: registro de webhooks, túneles para desarrollo local, tokens de bot cifrados
+  y protección contra límites de uso aprendida a la mala, bajo carga real
 
-`Python` `Odoo ORM` `Telegram Bot API` `webhooks` `LLM APIs` `HMAC` `cryptography`
-
----
-
-## 📡 IoT, telemetry & devices
-
-Where the physical world meets the ERP. All of it in production, feeding records people make
-decisions on.
-
-| System | What I built |
-|--------|--------------|
-| **PLC telemetry** | Industrial controller data ingested through **AWS IoT Core** over MQTT, landing in ERP records |
-| **GPS fleet tracking** | Ingest for Teltonika trackers over cellular: high-volume inbound writes, buffer-replay bursts after connectivity gaps, per-device concurrency handling, and health monitoring that answers "which units stopped reporting, and since when" |
-| **Weighing stations** | HTTP/REST bridge between a fleet of **Raspberry Pi** scale stations and inventory: HMAC-SHA256 signed webhook ingest, replay and rate-limit protection, per-station config and catalog snapshots with ETag caching — a migration off the legacy MQTT bridge |
-| **Biometric access control** | Fingerprint intercom integration with an audit trail for enrolment and removals |
-| **Device provisioning** | Making vendor Windows-only configurators work from Linux via a KVM virtual machine with Bluetooth USB passthrough, plus firmware/tooling version matching |
-
-`Python` `AWS IoT Core` `MQTT` `REST` `HMAC` `Raspberry Pi` `cellular IoT` `KVM/QEMU`
+`Python` `ORM de Odoo` `Telegram Bot API` `webhooks` `APIs de LLM` `HMAC` `criptografía`
 
 ---
 
-## ☁️ Cloud & infrastructure (OVH + AWS)
+## 📡 IoT, telemetría y dispositivos
 
-I run the production deployment, not just the code that ships to it.
+Donde el mundo físico se encuentra con el ERP. Todo está en producción y alimenta registros con los
+que la gente toma decisiones.
 
-- **AWS → OVH migration** — production moved to dedicated OVH hardware with A/B source trees for
-  zero-surprise deploys, a tree guard that refuses to start on a dirty checkout, pgBackRest to two
-  repositories (OVH and AWS), restic for the filestore, CrowdSec, and Ansible provisioning
-- **SSH-key identity** — local callers authenticate as their own ERP user through the SSH key they
-  logged in with (`auth_unix_peer`), so automation needs no API keys
+| Sistema | Lo que construí |
+|---------|-----------------|
+| **Telemetría de PLCs** | Datos de controladores industriales que entran por **AWS IoT Core** vía MQTT y terminan en registros del ERP |
+| **Rastreo GPS de flotilla** | Ingesta de rastreadores Teltonika por red celular: escrituras entrantes de alto volumen, ráfagas de reenvío tras cortes de conexión, manejo de concurrencia por dispositivo y un monitoreo que responde "qué unidades dejaron de reportar y desde cuándo" |
+| **Estaciones de pesaje** | Puente HTTP/REST entre una flotilla de básculas con **Raspberry Pi** e inventario: ingesta por webhook firmada con HMAC-SHA256, protección contra repetición y límites de uso, configuración por estación y catálogos en caché con ETag; reemplazó al puente MQTT anterior |
+| **Control de acceso biométrico** | Integración con videoportero de huella, con bitácora de altas y bajas |
+| **Aprovisionamiento de dispositivos** | Configuradores de fabricante que solo corren en Windows, usados desde Linux con una máquina virtual KVM y Bluetooth por USB passthrough, además del emparejamiento de versiones de firmware y herramientas |
 
-- **EC2 + nginx + systemd** — multi-instance Odoo deployment (web and telemetry workloads split),
-  reverse-proxy tuning, request-buffering and timeout issues diagnosed under real traffic, and a
-  maintenance page served automatically when the app is down
-- **S3 object storage** — attachments off local disk with a hybrid mirror strategy and
-  content-addressed digests
-- **Backups** — automated database and filestore backups shipped to S3 on a schedule, with
-  restore-tested manifests
-- **Capacity & performance** — memory over-commit and disk-layout incidents diagnosed and fixed;
-  slow-request profiling down to registry reloads and N+1 query patterns
-- **Service automation** — a Playwright-driven service that automates a tax-authority portal, and
-  a **FastAPI** ops dashboard for live logs and worker health
-
-`AWS EC2` `S3` `IoT Core` `nginx` `systemd` `Docker` `PostgreSQL 18` `FastAPI` `Playwright` `bash`
+`Python` `AWS IoT Core` `MQTT` `REST` `HMAC` `Raspberry Pi` `IoT celular` `KVM/QEMU`
 
 ---
 
-## 🔎 Where the code actually is
+## ☁️ Nube e infraestructura (OVH + AWS)
 
-Most of my day-to-day work lands in a **public fork of Odoo**, not in this account —
-so here is the proof of work, not just the badges:
+Opero el despliegue de producción, no solo el código que llega a él.
 
-| Where | What I do there |
-|-------|-----------------|
-| [**Agro-Marin/odoo**](https://github.com/Agro-Marin/odoo/pulls?q=is%3Apr+author%3AJemXiaolong+is%3Amerged) | Framework-level work on the Odoo 19 fork: ORM fixes, `web` client (OWL), `hr` / `mail` bug fixes, CI and coding-guideline sweeps |
-| [**pre-commit-agromarin**](https://github.com/JemXiaolong/pre-commit-agromarin) | Pre-commit hooks that enforce our Odoo coding standards across every repo |
+- **Migración de AWS a OVH**: producción pasó a hardware dedicado en OVH con árboles de código A/B
+  para desplegar sin sorpresas, una guarda que se niega a arrancar con un checkout sucio, pgBackRest
+  hacia dos repositorios (OVH y AWS), restic para el filestore, CrowdSec y aprovisionamiento con Ansible
+- **Identidad por llave SSH**: quien trabaja en el servidor se autentica en el ERP como su propio
+  usuario con la llave SSH con la que entró (`auth_unix_peer`), así la automatización no necesita API keys
+- **EC2 + nginx + systemd**: despliegue de Odoo en varias instancias (cargas web y de telemetría
+  separadas), tuning del proxy inverso, problemas de buffering y timeouts diagnosticados con tráfico
+  real, y una página de mantenimiento que se sirve sola cuando la app está caída
+- **Object storage**: archivos adjuntos fuera del disco local con una estrategia de espejo híbrido y
+  digests direccionados por contenido
+- **Respaldos**: respaldos automáticos de la base y del filestore hacia almacenamiento externo, con
+  restauraciones probadas
+- **Capacidad y rendimiento**: incidentes de sobrecompromiso de memoria y de distribución de discos
+  diagnosticados y resueltos; perfilado de peticiones lentas hasta las recargas del registro y los
+  patrones N+1
+- **Automatización de servicios**: un servicio con Playwright que automatiza un portal de la
+  autoridad fiscal y un tablero de operación en **FastAPI** con logs en vivo y salud de los workers
 
-A few PRs that show the kind of thing I work on:
-
-- [`[FIX] orm:`](https://github.com/Agro-Marin/odoo/pull/296) accept virtual groupby specs on the `read_group` empty path
-- [`[FIX] web:`](https://github.com/Agro-Marin/odoo/pull/326) no false concurrency conflict on a rule-hidden many2one
-- [`[FIX] hr:`](https://github.com/Agro-Marin/odoo/pull/261) `date.max` overflow in attendance intervals (UTC-negative timezones)
-- [`[REF] web:`](https://github.com/Agro-Marin/odoo/pull/324) retire the `patches/` convention for vendored libraries
+`OVH` `AWS EC2` `S3` `IoT Core` `Ansible` `pgBackRest` `nginx` `systemd` `Docker` `PostgreSQL 18` `FastAPI` `Playwright` `bash`
 
 ---
 
-## 📱 Shipped: Portal Escolar GEH
+## 🔎 Dónde está realmente el código
 
-**Live on the App Store** and distributed on Android — designed, built and released end to end
-under my own developer account.
+Casi todo mi trabajo del día a día vive en un **fork público de Odoo**, no en esta cuenta. Aquí está
+la prueba, no solo los badges:
+
+| Dónde | Qué hago ahí |
+|-------|--------------|
+| [**Agro-Marin/odoo**](https://github.com/Agro-Marin/odoo/pulls?q=is%3Apr+author%3AJemXiaolong+is%3Amerged) | Trabajo a nivel framework en el fork de Odoo 19: correcciones del ORM, cliente `web` (OWL), bugs de `hr` / `mail`, CI y barridos de guías de estilo |
+| [**odoo-rust-orm**](https://github.com/JemXiaolong/odoo-rust-orm) | Reimplementación en Rust de la ruta de lectura del ORM, comparada en sombra contra el ORM de Python |
+| [**pre-commit-agromarin**](https://github.com/JemXiaolong/pre-commit-agromarin) | Hooks de pre-commit que imponen nuestros estándares de código Odoo en todos los repos |
+
+Algunos PRs que muestran el tipo de trabajo que hago:
+
+- [`[FIX] orm:`](https://github.com/Agro-Marin/odoo/pull/296) acepta specs virtuales de groupby en la ruta vacía de `read_group`
+- [`[FIX] web:`](https://github.com/Agro-Marin/odoo/pull/326) sin conflicto de concurrencia falso en un many2one oculto por reglas
+- [`[FIX] hr:`](https://github.com/Agro-Marin/odoo/pull/261) desbordamiento de `date.max` en intervalos de asistencia (zonas horarias UTC negativas)
+- [`[REF] web:`](https://github.com/Agro-Marin/odoo/pull/324) retira la convención `patches/` para librerías incluidas en el repo
+
+---
+
+## 🩺 Publicado: Historial Clínico
+
+Un **expediente clínico electrónico** para consultorios: pacientes, antecedentes, consultas con
+signos vitales, recetas imprimibles, estudios de laboratorio con archivos y hospitalizaciones. Corre
+en una PC del consultorio y se abre desde cualquier compu de la red local.
+
+- **Acceso por médico tratante**: cada médico ve solo a sus pacientes; la asistente registra pacientes
+  y sube estudios sin ver consultas ni recetas
+- **Especialidades configurables**: cada especialidad oculta campos del sistema o agrega los suyos
+  (texto, número con unidad, fecha, listas), con plantillas listas para pediatría, ginecología,
+  cardiología, nutrición y salud mental
+- **Estudios con archivos**: PDF e imágenes (las HEIC de iPhone se convierten a JPG), visor integrado
+  con zoom y rotación, y el tipo de archivo se valida por su contenido, no por la extensión
+- **Distribución**: instalador de Windows que no necesita permisos de administrador y actualizaciones
+  automáticas desde GitHub Releases, verificadas con SHA-256
+- **Actualizaciones seguras**: migraciones solo aditivas aplicadas con respaldo previo, para que
+  cualquier instalación vieja salte directo a la última versión sin perder datos
+
+`Next.js 16` · `TypeScript` · `Prisma` · `SQLite` · `Electron` · `Zod` · `Three.js`
+
+<sub>Repositorio privado · v1.4.0</sub>
+
+---
+
+## 📱 Publicado: Portal Escolar GEH
+
+**Disponible en la App Store** y distribuida en Android; la diseñé, la construí y la publiqué de punta
+a punta con mi propia cuenta de desarrollador.
 
 <div align="center">
 
@@ -214,115 +247,94 @@ under my own developer account.
 <img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/06/19/cd/0619cdb2-9eb3-3926-76c4-5a4860ccead8/4.png/320x480bb.jpg" width="170" />
 <img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/96/45/e5/9645e580-9eeb-3245-2d36-26d921b47f36/7.png/320x480bb.jpg" width="170" />
 
-[**⬇️ Download on the App Store**](https://apps.apple.com/mx/app/app-grupo-educativo-hidalgo/id6770196534)
+[**⬇️ Descargar en la App Store**](https://apps.apple.com/mx/app/app-grupo-educativo-hidalgo/id6770196534)
 
 </div>
 
-The official app for parents and guardians of Grupo Educativo Hidalgo — school life from the phone,
-across **six functional modules**:
+La app oficial para padres de familia y tutores del Grupo Educativo Hidalgo: la vida escolar desde el
+teléfono, en **seis módulos funcionales**:
 
-- **Grades** by subject and term with averages, colour-coded so weak spots surface immediately
-- **Attendance history** — present / absent / late / excused
-- **Announcements** targeted per grade and group, with read receipts
-- **Payment status** — pending / paid / overdue
-- **QR exit authorisations** — time-expiring codes (15 minutes) built for in-person validation at
-  the school gate
-- **Multi-child support** — one guardian account managing every registered child
+- **Calificaciones** por materia y parcial con promedios, con colores que delatan el área débil de inmediato
+- **Historial de asistencia**: asistencia, falta, retardo y justificación
+- **Avisos** segmentados por grado y grupo, con acuse de lectura
+- **Estado de pagos**: pendiente, pagado o vencido
+- **Autorizaciones de salida por QR**: códigos que expiran en 15 minutos, pensados para validación
+  presencial en el acceso del plantel
+- **Varios hijos**: una sola cuenta de tutor administra a todos los alumnos inscritos
 
-Also mine: architecture and navigation, persistent-session auth with global state
-(`Zustand` + `AsyncStorage`), splash screen and onboarding tutorial, Android APK builds via
-**EAS Build**, and the release cycle on the App Store — build signing, store listing and update
-rollout. Version **1.1.0** shipped a redesigned interface, a new bottom navigation and
-chart-based dashboards.
+También es mío: la arquitectura y la navegación, la autenticación con sesión persistente y estado
+global (`Zustand` + `AsyncStorage`), la pantalla de inicio y el tutorial de bienvenida, los builds de
+Android (APK) con **EAS Build** y el ciclo de publicación en la App Store: firma, ficha de la tienda y
+actualizaciones. La versión **1.1.0** trajo una interfaz rediseñada, una nueva navegación inferior y
+tableros con gráficas.
 
 `React Native` · `Expo` · `TypeScript` · `Zustand` · `AsyncStorage` · `React Native SVG` · `EAS Build`
 
-<sub>v1.1.0 · Education · free · iOS 15.1+ · 127 supported devices · first released May 2026</sub>
+<sub>v1.1.0 · Educación · gratis · iOS 15.1+ · 127 dispositivos compatibles · primera versión en mayo de 2026</sub>
 
 ---
 
-## 🩺 Shipped: Historial Clínico
+## 🧰 Automatización y herramientas para desarrolladores
 
-An **electronic medical record** for private practices — patients, history, consultations with
-vital signs, printable prescriptions, lab studies with attachments, and hospital stays. It runs on
-one office PC and opens from any machine on the local network.
+Prefiero construir la herramienta que hacer la tarea dos veces.
 
-- **Role-based access by treating physician** — doctors see only their own patients; assistants
-  register patients and upload studies without seeing consultations or prescriptions
-- **Configurable specialties** — each specialty hides system fields or adds its own (text, number
-  with unit, date, lists), with ready-made templates for paediatrics, gynaecology, cardiology,
-  nutrition and mental health
-- **Studies with files** — PDFs and images (iPhone HEIC converted to JPG), an in-app viewer with
-  zoom and rotation, and file type validated by content rather than extension
-- **Distribution** — a Windows installer that needs no admin rights, and automatic updates from
-  GitHub Releases verified by SHA-256
-- **Safe upgrades** — additive-only migrations applied with a backup first, so any old install
-  jumps straight to the latest version without losing data
+- **Revisión automática de PRs**: un pipeline propio que reacciona a webhooks de GitHub, revisa cada
+  PR contra nuestras guías de código por escrito y deja su veredicto con etiquetas y comentarios.
+  Complementa al CI en lugar de duplicarlo
+- **Barridos de auditoría a nivel repositorio**: campañas reanudables, guiadas por un ledger, que
+  recorren un repo módulo por módulo (deuda de lint, higiene de comentarios, renombres del framework,
+  cobertura de tests) y abren un PR revisable por lote, para que un fork de 700 módulos realmente
+  pueda limpiarse
+- **Servidor MCP para el ERP**: expone los modelos del ERP a agentes de IA mediante el Model Context
+  Protocol, con los permisos de cada usuario
+- **Potato Debug**: extensión de navegador para Odoo 19 que alterna el modo debug y los assets, con
+  un panel de inspección de registros
+- **Más herramientas de navegador y escritorio**: extensiones Chrome MV3 para un espacio de trabajo
+  más rápido en el ERP (un dock, un overlay tipo centro de control, un widget en vivo de workers y
+  logs), un **visor ERD** empaquetado como `.deb` que dibuja el esquema directo desde PostgreSQL, y un
+  indicador para la barra superior de GNOME
+- **Visualización 3D de productos**: integración de un visor de modelos glTF en el cliente web,
+  incluidas transformaciones de texturas en tiempo de ejecución para mockups de producto
 
-`Next.js 16` · `TypeScript` · `Prisma` · `SQLite` · `Electron` · `Zod` · `Three.js`
-
-<sub>Private repository · v1.4.0</sub>
-
----
-
-## 🧰 Automation & developer tooling
-
-I would rather build the tool than do the task twice.
-
-- **Automated PR review** — a self-hosted pipeline that reacts to GitHub webhooks and checks every
-  incoming PR against our written coding guidelines, then labels and comments with its verdict.
-  Complements CI instead of duplicating it
-- **Repo-wide audit sweeps** — resumable, ledger-driven campaigns that walk a repository module by
-  module (lint debt, comment hygiene, framework renames, test coverage) and open one reviewable PR
-  per batch, so a 700-module fork can actually be cleaned up
-- **MCP server for the ERP** — exposes ERP models to AI agents over the Model Context Protocol
-- **Potato Debug** — browser extension for Odoo 19: toggle debug mode and assets, plus a record
-  inspection panel
-- **More browser & desktop tooling** — Chrome MV3 extensions for a faster ERP workspace (a dock, a
-  control-center overlay, a live worker/log monitor widget), a `.deb`-packaged read-only **ERD
-  viewer** that draws the schema straight from PostgreSQL, and a GNOME top-bar indicator
-- **3D product visualisation** — glTF model viewer integration in the web client, including
-  runtime texture transforms for product mockups
-
-`Python` `TypeScript` `JavaScript` `Chrome Extensions (MV3)` `WebSocket` `MCP` `glTF/Three.js` `GitHub Actions`
+`Python` `TypeScript` `JavaScript` `Extensiones de Chrome (MV3)` `WebSocket` `MCP` `glTF/Three.js` `GitHub Actions`
 
 ---
 
-## 🗺️ Career so far
+## 🗺️ Trayectoria
 
-| When | Where | What |
-|------|-------|------|
-| **2025 → now** | **AgroMarin** · Full Stack Developer | Odoo 19 fork for agro-industrial operations: framework contributions, 22 new modules, the AWS → OVH production migration, a Rust ORM prototype, IoT ingest, CI/CD and AI-agent tooling |
-| **2026** | **Grupo Educativo Hidalgo** · React Native Developer | *Portal Escolar GEH* for iOS and Android, designed and shipped end to end |
-| **2018 → 2025** | **CECYTEM** · Senior Full Stack Developer | Led institutional software for one of the largest technical-education systems in Estado de México: an enrolment system streamlining **2,000+** students per cycle, Google Apps Script automations across Classroom/Drive/Docs, Odoo Enterprise modules and core bug fixes, the institutional website and an internal academic-management platform. Innovation projects: a **sign-language interpreter** with Python/AI, smart attendance, an institutional bot, and educational robotics with Arduino (mini-sumo) |
-| **2016 → 2018** | **Freelance** · Developer & Designer | Custom web applications (Python, Java, MySQL), institutional and commercial sites (PHP, JavaScript), plus graphic design and branding |
-| **2014 → 2016** | **Ge Games** · 3D Artist & Gameplay Programmer | 3D character design and post-production in Blender, gameplay programming in C# on Unity, and music/video production for games released on iOS and Android |
-
----
-
-## 🚀 Other Projects
-
-| Project | Description | Tech |
-|---------|-------------|------|
-| [**odoo-rust-orm**](https://github.com/JemXiaolong/odoo-rust-orm) | Rust reimplementation of the Odoo 19 ORM read path, shadow-diffed against the Python ORM | `Rust` `Python` `PostgreSQL` |
-| **Historial Clínico** *(private)* | Electronic medical record for private practices, self-updating Windows installer | `Next.js` `Prisma` `Electron` |
-| [**Manual OWL**](https://github.com/JemXiaolong/Manual_OWL) | Practical guide to the Odoo Web Library — fundamentals, examples and best practices | `OWL` `Odoo` `CSS` |
-| [**pre-commit-agromarin**](https://github.com/JemXiaolong/pre-commit-agromarin) | Pre-commit hooks for Odoo development workflows | `Python` |
-| [**Potato**](https://github.com/JemXiaolong/Potato) | Markdown note synchronisation across machines | `Python` |
-| [**Potato-Code**](https://github.com/JemXiaolong/Potato-Code) | Interface layer for a coding workflow | `TypeScript` |
-| **Potato Debug** | Browser extension for Odoo 19: debug/assets toggle and a record inspection panel | `JavaScript` `MV3` |
-| **Dev tooling** *(private)* | Chrome MV3 workspace extensions, a `.deb` ERD viewer, and an automated PR-review pipeline | `TypeScript` `Python` `bash` |
+| Cuándo | Dónde | Qué |
+|--------|-------|-----|
+| **2025 → hoy** | **AgroMarin** · Desarrollador Full Stack | Fork de Odoo 19 para operaciones agroindustriales: contribuciones al framework, 22 módulos nuevos, la migración de producción de AWS a OVH, un prototipo de ORM en Rust, ingesta IoT, CI/CD y herramientas con agentes de IA |
+| **2026** | **Grupo Educativo Hidalgo** · Desarrollador React Native | *Portal Escolar GEH* para iOS y Android, diseñada y publicada de punta a punta |
+| **2018 → 2025** | **CECYTEM** · Senior Full Stack Developer | Lideré el software institucional de uno de los sistemas de educación tecnológica más grandes del Estado de México: un sistema de inscripciones que agilizó el registro de **más de 2,000** alumnos por ciclo, automatizaciones con Google Apps Script sobre Classroom/Drive/Docs, módulos de Odoo Enterprise y correcciones en el core, el sitio web institucional y una plataforma interna de gestión académica. Proyectos de innovación: un **intérprete de lenguaje de señas** con Python/IA, asistencias inteligentes, un bot institucional y robótica educativa con Arduino (minisumo) |
+| **2016 → 2018** | **Freelance** · Desarrollador y diseñador | Aplicaciones web a medida (Python, Java, MySQL), sitios institucionales y comerciales (PHP, JavaScript), además de diseño gráfico y branding |
+| **2014 → 2016** | **Ge Games** · Artista 3D y programador de gameplay | Diseño de personajes 3D y posproducción en Blender, programación de gameplay en C# con Unity, y producción musical y de video para juegos publicados en iOS y Android |
 
 ---
 
-## 📊 GitHub Stats
+## 🚀 Otros proyectos
+
+| Proyecto | Descripción | Tecnología |
+|----------|-------------|------------|
+| [**odoo-rust-orm**](https://github.com/JemXiaolong/odoo-rust-orm) | Reimplementación en Rust de la ruta de lectura del ORM de Odoo 19, comparada en sombra contra el ORM de Python | `Rust` `Python` `PostgreSQL` |
+| **Historial Clínico** *(privado)* | Expediente clínico electrónico para consultorios, con instalador de Windows que se actualiza solo | `Next.js` `Prisma` `Electron` |
+| [**Manual OWL**](https://github.com/JemXiaolong/Manual_OWL) | Guía práctica de Odoo Web Library: fundamentos, ejemplos y buenas prácticas | `OWL` `Odoo` `CSS` |
+| [**pre-commit-agromarin**](https://github.com/JemXiaolong/pre-commit-agromarin) | Hooks de pre-commit para los flujos de desarrollo en Odoo | `Python` |
+| [**Potato**](https://github.com/JemXiaolong/Potato) | Sincronización de notas Markdown entre equipos | `Python` |
+| [**Potato-Code**](https://github.com/JemXiaolong/Potato-Code) | Capa de interfaz para un flujo de trabajo de código | `TypeScript` |
+| **Potato Debug** | Extensión de navegador para Odoo 19: alterna debug y assets, con panel de inspección de registros | `JavaScript` `MV3` |
+| **Herramientas de desarrollo** *(privado)* | Extensiones Chrome MV3 para el espacio de trabajo, un visor ERD en `.deb` y un pipeline de revisión automática de PRs | `TypeScript` `Python` `bash` |
+
+---
+
+## 📊 Estadísticas de GitHub
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=JemXiaolong&show_icons=true&include_all_commits=true&theme=tokyonight&hide_border=true&bg_color=00000000" height="165" />
-<img src="https://github-readme-streak-stats.herokuapp.com?user=JemXiaolong&theme=tokyonight&hide_border=true&background=00000000" height="165" />
+<img src="https://github-readme-stats.vercel.app/api?username=JemXiaolong&show_icons=true&include_all_commits=true&theme=tokyonight&hide_border=true&bg_color=00000000&locale=es" height="165" />
+<img src="https://github-readme-streak-stats.herokuapp.com?user=JemXiaolong&theme=tokyonight&hide_border=true&background=00000000&locale=es" height="165" />
 
-<sub>These cards only count public repos owned by this account — most of my work lives in the org fork linked above.</sub>
+<sub>Estas tarjetas solo cuentan los repos públicos de esta cuenta; casi todo mi trabajo vive en el fork de la organización enlazado arriba.</sub>
 
 </div>
 
@@ -330,8 +342,8 @@ I would rather build the tool than do the task twice.
 
 <div align="center">
 
-*"Clean code always looks like it was written by someone who cares."*
+*"El código limpio siempre parece escrito por alguien a quien le importa."*
 
-<img src="https://komarev.com/ghpvc/?username=JemXiaolong&style=flat-square&color=6C63FF" />
+<img src="https://komarev.com/ghpvc/?username=JemXiaolong&style=flat-square&color=6C63FF&label=Visitas" />
 
 </div>
