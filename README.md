@@ -59,6 +59,8 @@ que se actualiza solo.
 ![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-A22846?style=for-the-badge&logo=raspberrypi&logoColor=white)
 ![Telegram](https://img.shields.io/badge/Telegram_Bot_API-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)
 ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
 ![Electron](https://img.shields.io/badge/Electron-47848F?style=for-the-badge&logo=electron&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
@@ -75,6 +77,7 @@ framework de Odoo —internals del ORM, el cliente web OWL y el CI que lo mantie
 servidor de producción donde corre e integro el hardware que le manda datos. Llevo diez años en esto:
 plataformas educativas, ERP agroindustrial, salud y una etapa en arte para videojuegos.
 
+- 🐝 Diseñé y opero un **enjambre de agentes de IA** que migra la lógica de Odoo de Python a Rust y Go, y que antes llevó miles de correcciones y pruebas al fork
 - 🔭 Mantengo un **fork de Odoo 19** en producción, a nivel framework *y* a nivel aplicación
 - 🧱 **22 módulos escritos desde cero** y **más de 5,000 commits** entre el framework y nuestros addons; buena parte llegaron por loops de auditoría con agentes de IA que diseñé, con un PR revisable por lote
 - 🦀 **odoo-rust-orm**: reimplementación en Rust de la ruta de lectura del ORM, comparada en sombra contra el ORM de Python sobre una base real
@@ -82,10 +85,35 @@ plataformas educativas, ERP agroindustrial, salud y una etapa en arte para video
 - 📡 Construí la **ruta de ingesta IoT**: telemetría de PLCs por **AWS IoT Core (MQTT)**, rastreo GPS de la flotilla y básculas con Raspberry Pi
 - ☁️ Opero producción: la **migré de AWS a OVH** (despliegues A/B, pgBackRest en dos regiones, restic, CrowdSec, Ansible), además de nginx, systemd, dimensionamiento de workers y tuning de PostgreSQL
 - 🤖 Convertí **Telegram en una superficie de operación**: aprobaciones, asistencias y asistentes de IA por webhooks
+- 💼 **Flujos contables** en Odoo 19: aprobaciones, asientos automáticos, CFDI y nómina mexicana, crédito a clientes y dispersión bancaria
+- 📲 **Odoo Companion**: app Android nativa que convierte un teléfono de la empresa en un dispositivo de Odoo
 - 📱 Publiqué una app escolar en **iOS y Android** de punta a punta, con mi propia cuenta de desarrollador
 - 🧠 **Python 3.14**, **PostgreSQL 18 + PostGIS**, **ORM y OWL de Odoo**, **React Native/Expo**, **Next.js**, **TypeScript** y algo de **Rust**
 - 🛠️ Me importa la calidad del código: linting a escala de repositorio, hooks de pre-commit, guías de estilo y compuertas de CI
 - 🌎 Vivo en Metepec, Estado de México
+
+---
+
+## 🐝 Proyecto estelar: enjambre de agentes de IA
+
+Un enjambre de agentes de IA que trabaja sobre el fork de Odoo como un equipo de ingeniería: unos
+investigan, otros implementan, otra familia de modelos revisa y **el código decide si algo entra**.
+Hoy migra la lógica de negocio de **Python a Rust** y los servicios de red a **Go**; antes llevó miles
+de correcciones y pruebas al fork, siempre con un PR revisable por lote.
+
+- **Papeles con modelos distintos** de Anthropic y OpenAI: orquestar, investigar, portar, refutar y
+  escalar. Cada familia implementa un carril y revisa el otro, para que nadie revise su propio trabajo
+- **Siete compuertas (G0–G6) que corre código, no los agentes**: pruebas antes y después, `clippy`,
+  paridad del gemelo en Rust contra el original con semilla fija, benchmark, refutación cruzada e
+  integración con rebase limpio
+- **Inventario de 1,541 unidades** de lógica portable en el repo de Odoo, ordenado por el perfilado de
+  producción: primero lo caliente
+- **Lanzador multi-cuenta** que reparte agentes según carga y cupo, y un **ledger reanudable** que es
+  la única memoria del loop
+- **El mismo motor** corre los loops de auditoría de módulos, generación de pruebas unitarias,
+  revisión de PRs, backports y triaje de errores de producción
+
+`Claude` `GPT` `Python` `Rust` `PyO3` `Go` `git worktrees` `MCP`
 
 ---
 
@@ -122,6 +150,25 @@ tuning de la configuración de PostgreSQL y dimensionamiento de workers.
 **CI/CD**: endurecí el pipeline en Docker (contexto de build, dependencias del sistema, la extensión
 en **Rust** `odoo_rust`, el upgrade a PostgreSQL 18) y automaticé el linting a escala de repositorio
 (`ruff`, `pylint`, `pre-commit`).
+
+---
+
+## 💼 Flujos contables en Odoo 19
+
+Módulos para que la operación contable de varias empresas corra con la menor intervención manual
+posible.
+
+- **Aprobaciones** de facturas y pagos antes de publicarse, también desde Telegram, con los asientos de
+  seguimiento generados en automático
+- **Automatizaciones contables**: documentos y conciliación dentro de flujos, plantillas reutilizables
+  de asientos y pagos, y numeración por secuencias de diario
+- **Localización México**: CFDI de nómina, CFDI archivados en Documents y reglas para evitar asientos
+  de reversión innecesarios
+- **Nómina**: frecuencias de pago, periodos duales y dispersión bancaria con el layout del banco
+- **Crédito a clientes**: límites, autorizaciones y cierre de los caminos que permitían saltarse el
+  límite; márgenes de factura con el costo real de venta
+
+`Odoo 19` `Python` `Contabilidad` `CFDI 4.0` `Nómina` `PostgreSQL`
 
 ---
 
@@ -235,6 +282,22 @@ en una PC del consultorio y se abre desde cualquier compu de la red local.
 
 ---
 
+## 📲 Odoo Companion (Android)
+
+Convierte un teléfono de la empresa en un dispositivo de Odoo: manda **ubicación, registro de llamadas
+y grabaciones** por REST con token, trae un **softphone SIP** y, desde la 2.1, **escanea o sube
+documentos** y muestra a dónde fueron a dar en Odoo.
+
+- Cola persistente (**Room + WorkManager**) que sobrevive reinicios y separa entregados, duplicados y
+  descartados, para que un teléfono sano nunca parezca que pierde datos
+- Unidades tal como las reporta Android, documentadas contra lo que espera el servidor, para que
+  ninguna velocidad se guarde 3.6× mal sin que nadie lo note
+- Genérica: se configura con URL, identificador y token, sin lógica de ningún cliente
+
+`Kotlin` `Android` `Room` `WorkManager` `SIP` `Odoo REST`
+
+---
+
 ## 📱 Publicado: Portal Escolar GEH
 
 **Disponible en la App Store** y distribuida en Android; la diseñé, la construí y la publiqué de punta
@@ -316,6 +379,8 @@ Prefiero construir la herramienta que hacer la tarea dos veces.
 
 | Proyecto | Descripción | Tecnología |
 |----------|-------------|------------|
+| **Enjambre de agentes de IA** *(privado)* | Agentes de varias familias de modelos que migran la lógica de Odoo a Rust y Go, con compuertas que corre código | `Python` `Rust` `Go` |
+| **Odoo Companion** *(privado)* | App Android que manda ubicación, llamadas, grabaciones y documentos a Odoo, con softphone SIP | `Kotlin` `Android` |
 | [**odoo-rust-orm**](https://github.com/JemXiaolong/odoo-rust-orm) | Reimplementación en Rust de la ruta de lectura del ORM de Odoo 19, comparada en sombra contra el ORM de Python | `Rust` `Python` `PostgreSQL` |
 | **Historial Clínico** *(privado)* | Expediente clínico electrónico para consultorios, con instalador de Windows que se actualiza solo | `Next.js` `Prisma` `Electron` |
 | [**Manual OWL**](https://github.com/JemXiaolong/Manual_OWL) | Guía práctica de Odoo Web Library: fundamentos, ejemplos y buenas prácticas | `OWL` `Odoo` `CSS` |
