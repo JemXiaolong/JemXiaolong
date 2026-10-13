@@ -2,12 +2,14 @@
 
 # Hey there! I'm Jem 👋
 
-**Full Stack Developer** — I build inside a fork of the **Odoo 19** framework, run the **AWS**
-infrastructure and **IoT** fleet feeding it, and ship **React Native** apps to real users.
+**Full Stack Developer** — I build inside a fork of the **Odoo 19** framework, run the production
+infrastructure (**OVH**, previously **AWS**) and the **IoT** fleet feeding it, and ship complete products:
+a **React Native** app on the App Store and a self-updating **electronic medical record**.
 
-**Portfolio → [jemxiaolong.github.io](https://jemxiaolong.github.io)**
+**Portfolio → [jemxiaolong.github.io](https://jemxiaolong.github.io)** · **CV → [jemxiaolong.github.io/cv](https://jemxiaolong.github.io/cv/)** ([PDF](https://jemxiaolong.github.io/cv/CV-Eli-Jeziel-Escudero-Maldonado.pdf))
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-jemxiaolong.github.io-b8410e?style=flat-square&logo=safari&logoColor=white)](https://jemxiaolong.github.io)
+[![CV](https://img.shields.io/badge/CV-online_%2B_PDF-0a7d55?style=flat-square&logo=readthedocs&logoColor=white)](https://jemxiaolong.github.io/cv/)
 [![App Store](https://img.shields.io/badge/App_Store-published-0D96F6?style=flat-square&logo=appstore&logoColor=white)](https://apps.apple.com/mx/app/app-grupo-educativo-hidalgo/id6770196534)
 [![Merged PRs](https://img.shields.io/badge/dynamic/json?style=flat-square&color=8957e5&label=merged%20PRs%20in%20Odoo%20fork&query=%24.total_count&url=https%3A%2F%2Fapi.github.com%2Fsearch%2Fissues%3Fq%3Dauthor%3AJemXiaolong%2Bis%3Apr%2Bis%3Amerged%2Brepo%3AAgro-Marin%2Fodoo)](https://github.com/Agro-Marin/odoo/pulls?q=is%3Apr+author%3AJemXiaolong+is%3Amerged)
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jemxiaolong/)
@@ -68,9 +70,11 @@ AWS deployment it lives on, and I integrate the hardware that feeds it data. Ten
 education platforms, agro-industrial ERP and a stint in game art.
 
 - 🔭 Maintaining an **Odoo 19 ERP fork** in production — framework level *and* app level
-- 🧱 **22 modules written from scratch**, ~**850 commits** and ~**137k lines** across core, enterprise and our addons
+- 🧱 **22 modules written from scratch** and **5,000+ commits** across the framework and our addons — many landed through AI-agent audit loops I designed, one reviewable PR per batch
+- 🦀 **odoo-rust-orm** — a Rust reimplementation of the ORM read path, shadow-diffed against the Python ORM on a real database
+- 🩺 **Historial Clínico** — an electronic medical record for private practices: Next.js + Prisma, Windows installer, self-updating releases
 - 📡 Built the **IoT ingest path**: PLC telemetry over **AWS IoT Core (MQTT)**, GPS fleet tracking and Raspberry Pi weighing stations
-- ☁️ Own the **AWS side**: EC2, S3, nginx, systemd, backups, worker sizing, PostgreSQL tuning
+- ☁️ Own production: moved it **from AWS to OVH** (A/B deploys, pgBackRest in two regions, restic, CrowdSec, Ansible), plus nginx, systemd, worker sizing and PostgreSQL tuning
 - 🤖 Turned **Telegram into an ops surface**: approvals, attendance and AI assistants over webhooks
 - 📱 Shipped a school-community app to **iOS and Android**, end to end, under my own developer account
 - 🧠 **Python 3.14**, **PostgreSQL 18 + PostGIS**, **Odoo ORM & OWL**, **React Native/Expo**, **TypeScript**, some **Rust**
@@ -83,9 +87,9 @@ education platforms, agro-industrial ERP and a stint in game art.
 
 <div align="center">
 
-| Framework | Modules authored | Commits | Lines |
-|:---------:|:----------------:|:-------:|:-----:|
-| core · enterprise · addons | **22** from scratch | **~850** | **~137k** |
+| Framework | Modules authored | Commits |
+|:---------:|:----------------:|:-------:|
+| core · addons · l10n | **22** from scratch | **5,000+** (incl. automated audit loops) |
 
 </div>
 
@@ -153,9 +157,15 @@ decisions on.
 
 ---
 
-## ☁️ Cloud & infrastructure (AWS)
+## ☁️ Cloud & infrastructure (OVH + AWS)
 
 I run the production deployment, not just the code that ships to it.
+
+- **AWS → OVH migration** — production moved to dedicated OVH hardware with A/B source trees for
+  zero-surprise deploys, a tree guard that refuses to start on a dirty checkout, pgBackRest to two
+  repositories (OVH and AWS), restic for the filestore, CrowdSec, and Ansible provisioning
+- **SSH-key identity** — local callers authenticate as their own ERP user through the SSH key they
+  logged in with (`auth_unix_peer`), so automation needs no API keys
 
 - **EC2 + nginx + systemd** — multi-instance Odoo deployment (web and telemetry workloads split),
   reverse-proxy tuning, request-buffering and timeout issues diagnosed under real traffic, and a
@@ -231,6 +241,30 @@ chart-based dashboards.
 
 ---
 
+## 🩺 Shipped: Historial Clínico
+
+An **electronic medical record** for private practices — patients, history, consultations with
+vital signs, printable prescriptions, lab studies with attachments, and hospital stays. It runs on
+one office PC and opens from any machine on the local network.
+
+- **Role-based access by treating physician** — doctors see only their own patients; assistants
+  register patients and upload studies without seeing consultations or prescriptions
+- **Configurable specialties** — each specialty hides system fields or adds its own (text, number
+  with unit, date, lists), with ready-made templates for paediatrics, gynaecology, cardiology,
+  nutrition and mental health
+- **Studies with files** — PDFs and images (iPhone HEIC converted to JPG), an in-app viewer with
+  zoom and rotation, and file type validated by content rather than extension
+- **Distribution** — a Windows installer that needs no admin rights, and automatic updates from
+  GitHub Releases verified by SHA-256
+- **Safe upgrades** — additive-only migrations applied with a backup first, so any old install
+  jumps straight to the latest version without losing data
+
+`Next.js 16` · `TypeScript` · `Prisma` · `SQLite` · `Electron` · `Zod` · `Three.js`
+
+<sub>Private repository · v1.4.0</sub>
+
+---
+
 ## 🧰 Automation & developer tooling
 
 I would rather build the tool than do the task twice.
@@ -258,7 +292,7 @@ I would rather build the tool than do the task twice.
 
 | When | Where | What |
 |------|-------|------|
-| **2025 → now** | **AgroMarin** · Full Stack Developer | Odoo 19 fork for agro-industrial operations: framework contributions, 22 new modules, AWS infrastructure, IoT ingest, CI/CD |
+| **2025 → now** | **AgroMarin** · Full Stack Developer | Odoo 19 fork for agro-industrial operations: framework contributions, 22 new modules, the AWS → OVH production migration, a Rust ORM prototype, IoT ingest, CI/CD and AI-agent tooling |
 | **2026** | **Grupo Educativo Hidalgo** · React Native Developer | *Portal Escolar GEH* for iOS and Android, designed and shipped end to end |
 | **2018 → 2025** | **CECYTEM** · Senior Full Stack Developer | Led institutional software for one of the largest technical-education systems in Estado de México: an enrolment system streamlining **2,000+** students per cycle, Google Apps Script automations across Classroom/Drive/Docs, Odoo Enterprise modules and core bug fixes, the institutional website and an internal academic-management platform. Innovation projects: a **sign-language interpreter** with Python/AI, smart attendance, an institutional bot, and educational robotics with Arduino (mini-sumo) |
 | **2016 → 2018** | **Freelance** · Developer & Designer | Custom web applications (Python, Java, MySQL), institutional and commercial sites (PHP, JavaScript), plus graphic design and branding |
@@ -270,6 +304,8 @@ I would rather build the tool than do the task twice.
 
 | Project | Description | Tech |
 |---------|-------------|------|
+| [**odoo-rust-orm**](https://github.com/JemXiaolong/odoo-rust-orm) | Rust reimplementation of the Odoo 19 ORM read path, shadow-diffed against the Python ORM | `Rust` `Python` `PostgreSQL` |
+| **Historial Clínico** *(private)* | Electronic medical record for private practices, self-updating Windows installer | `Next.js` `Prisma` `Electron` |
 | [**Manual OWL**](https://github.com/JemXiaolong/Manual_OWL) | Practical guide to the Odoo Web Library — fundamentals, examples and best practices | `OWL` `Odoo` `CSS` |
 | [**pre-commit-agromarin**](https://github.com/JemXiaolong/pre-commit-agromarin) | Pre-commit hooks for Odoo development workflows | `Python` |
 | [**Potato**](https://github.com/JemXiaolong/Potato) | Markdown note synchronisation across machines | `Python` |
