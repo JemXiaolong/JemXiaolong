@@ -7,10 +7,10 @@ infraestructura de producción (**OVH**, antes **AWS**) y la flotilla **IoT** qu
 productos completos: una app **React Native** en la App Store y un **expediente clínico electrónico**
 que se actualiza solo.
 
-**Portafolio → [jemxiaolong.github.io](https://jemxiaolong.github.io)** · **CV → [jemxiaolong.github.io/cv](https://jemxiaolong.github.io/cv/)** ([PDF](https://jemxiaolong.github.io/cv/CV-Eli-Jeziel-Escudero-Maldonado.pdf))
+**Portafolio → [jemxiaolong.github.io](https://jemxiaolong.github.io)** · **CV → [jemxiaolong.github.io/cv](https://jemxiaolong.github.io/cv/?ref=github)**
 
 [![Portafolio](https://img.shields.io/badge/Portafolio-jemxiaolong.github.io-b8410e?style=flat-square&logo=safari&logoColor=white)](https://jemxiaolong.github.io)
-[![CV](https://img.shields.io/badge/CV-en_línea_%2B_PDF-0a7d55?style=flat-square&logo=readthedocs&logoColor=white)](https://jemxiaolong.github.io/cv/)
+[![CV](https://img.shields.io/badge/CV-en_línea_%2B_PDF-0a7d55?style=flat-square&logo=readthedocs&logoColor=white)](https://jemxiaolong.github.io/cv/?ref=github)
 [![App Store](https://img.shields.io/badge/App_Store-publicada-0D96F6?style=flat-square&logo=appstore&logoColor=white)](https://apps.apple.com/mx/app/app-grupo-educativo-hidalgo/id6770196534)
 [![PRs mergeados](https://img.shields.io/badge/dynamic/json?style=flat-square&color=8957e5&label=PRs%20mergeados%20en%20el%20fork%20de%20Odoo&query=%24.total_count&url=https%3A%2F%2Fapi.github.com%2Fsearch%2Fissues%3Fq%3Dauthor%3AJemXiaolong%2Bis%3Apr%2Bis%3Amerged%2Brepo%3AAgro-Marin%2Fodoo)](https://github.com/Agro-Marin/odoo/pulls?q=is%3Apr+author%3AJemXiaolong+is%3Amerged)
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jemxiaolong/)
